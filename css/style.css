@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers XXXXXXX type ecriture ozvald */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** fin reset **/
+*{
+    box-sizing: content-box;
+    margin: auto;
+}
+
+section{
+	margin: 2% 2% 0 2%;
+	
+}
+h2{
+	font-size: 2rem;
+}
+
+/**                  HEADER                     **/
+header{
+	background-color: #b2dadd;
+    padding: 10%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+header h1{
+    font-size: 4rem;
+}
+header h2{
+    font-size: 3rem;
+}
+/**               PRESENTATION                       **/
+#logo{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+	
+}
+#logo img{
+	width: 10%;
+	height: 10%;
+}
+.presentation{
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-around;
+
+}
+.presentation h2{
+	
+	text-align: right;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.presentation p:first-of-type{
+	width: 50%;
+	
+}
+/**               STUDY                           **/
+
+.study h2{
+	
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 1%;
+}
+.study article{
+	margin-left: 40%;
+	padding: 1%;
+}
+
+.study h3{
+	font-weight: bold;
+}
+.study p{
+	font-family: 'Poiret One', cursive;
+	
+}
+/**                PROJET                      **/
+.project{
+	display: flex;
+	
+}
+.project h2{
+	
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 1%;
+
+}
+.project article{
+	width: 20%;
+	background-color: #b2dadd;
+	padding: 5%;
+	border-radius: 10%;
+	margin: 0 5% 0 5%;
+}
+.project article:hover{
+	opacity: 0.5;
+	transition: 2s;
+}
+.project article h3{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.project article p{
+	margin: 2% 0 2% 0;
+}
+
+/**                  CONTACT                      **/ 
+legend{
+	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0.5%;
+
+}
+
+input, textarea{
+	margin-left: 25%;
+	margin-bottom: 1%;
+	width: 50%;
+}
+button{
+	margin: 1% 1% 1% 70%;
+
+	
+}
